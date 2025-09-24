@@ -5,6 +5,7 @@ public class StringOutOfBoundExample {
         String str = "Hello";
         try {
             char ch = str.charAt(10);
+            System.out.println("Character at index 10: " + ch);
         } catch (StringIndexOutOfBoundsException e) {
             System.out.println("Exception caught: " + e);
         }
