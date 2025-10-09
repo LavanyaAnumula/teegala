@@ -10,7 +10,7 @@ public class GenericMain {
 		
 		//String type
 		GenericDemo<String> str = new GenericDemo<>();
-		str.setPrintElement("AKhil");
+		str.setPrintElement("TNS");
 		System.out.println(str.getPrintElement());
 
 	}
